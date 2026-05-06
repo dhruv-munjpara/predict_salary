@@ -32,7 +32,7 @@ app.add_middleware(
 
 @app.get("/")
 def home():
-    return{"message":"all ok"}
+    return{"message":"all ok and done"}
 
 @app.post("/predict")
 def pridect(data:dict):
